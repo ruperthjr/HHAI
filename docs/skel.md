@@ -1,4 +1,4 @@
-HHAI/
+Precision_Telemedicine_2.0/
 ├── frontend/                     # React.js Frontend Application
 │   ├── public/                   # Public assets (served as static files)
 │   │   ├── index.html            # Main HTML file
@@ -66,8 +66,9 @@ HHAI/
 │   └── db.sqlite3                # Local development database
 │
 ├── docs/                         # Documentation and assets         
-│   ├── Out.md                    # API specifications
-│   └── skel.md                   # Detailed architecture design
+│   ├── API.md                    # API specifications
+│   ├── ARCHITECTURE.md           # Detailed architecture design
+│   └── SECURITY.md               # Security implementation details
 │
 ├── tests/                        # End-to-end tests
 │   ├── backend_tests/            # Backend test cases
