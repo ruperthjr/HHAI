@@ -1,4 +1,4 @@
-precision-telemedicine-2.0/
+HHAI/
 ├── frontend/                     # React.js Frontend Application
 │   ├── public/                   # Public assets (served as static files)
 │   │   ├── index.html            # Main HTML file
@@ -6,14 +6,14 @@ precision-telemedicine-2.0/
 │   │   └── manifest.json         # Progressive Web App Manifest
 │   ├── src/                      # Source files
 │   │   ├── components/           # Reusable React components
-│   │   │   ├── Dashboard.jsx     # Main dashboard UI
-│   │   │   ├── HealthProfile.jsx # Health profile form and display
-│   │   │   ├── InsightsViewer.jsx# AI recommendations display
+│   │   │   ├── Dashboard.js      # Main dashboard UI
+│   │   │   ├── HealthProfile.js  # Health profile form and display
+│   │   │   ├── InsightsViewer.js # AI recommendations display
 │   │   │   └── Auth/             # Authentication-related components
-│   │   │       ├── Login.jsx     
-│   │   │       ├── Signup.jsx    
-│   │   │       ├── PasswordReset.jsx
-│   │   │       └── AccountSettings.jsx
+│   │   │       ├── Login.js      
+│   │   │       ├── Signup.js     
+│   │   │       ├── PasswordReset.js
+│   │   │       └── AccountSettings.js
 │   │   ├── context/              # Context providers (state management)
 │   │   │   ├── AuthContext.js    # Authentication context
 │   │   │   └── TrendsContext.js  # Context for trending topics
@@ -23,7 +23,7 @@ precision-telemedicine-2.0/
 │   │   │   └── trendsService.js  # Trending topics API calls
 │   │   ├── styles/               # Tailwind and custom CSS files
 │   │   │   └── global.css        # Global styling
-│   │   ├── App.jsx               # Main React App component
+│   │   ├── App.js                # Main React App component
 │   │   ├── index.js              # ReactDOM render logic
 │   │   └── router.js             # Application routing configuration
 │   ├── package.json              # Frontend dependencies
@@ -65,8 +65,7 @@ precision-telemedicine-2.0/
 │   │   │   └── tests.py          # Recommendations app tests
 │   └── db.sqlite3                # Local development database
 │
-├── docs/                         # Documentation and assets
-│   ├── Doc.md                   
+├── docs/                         # Documentation and assets         
 │   ├── Out.md                    # API specifications
 │   └── skel.md                   # Detailed architecture design
 │
